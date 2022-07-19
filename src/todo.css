@@ -1,0 +1,111 @@
+
+:root{
+    --roxo-padrao-degrad:linear-gradient(rgb(152, 11, 183) ,rgb(119, 17, 192));
+    --roxo-padrao-escuro: rgb(79, 10, 144);
+    --vermelho-padrao-escuro: rgb(225, 48, 102);
+    --vermelho: rgb(206, 18, 74);
+    --amarelo-padrao: rgb(228, 192, 47);
+    --amarelo-padrao-escuro: rgb(198, 169, 51);
+    --amarelo-branco: rgb(245, 227, 158);
+    --branco: rgb(248, 239, 239);
+    --sombra-padrao: rgba(0, 0, 0, 0.215);
+    
+}
+body{
+    background-image:var(--roxo-padrao-degrad);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1{
+   color: var(--roxo-padrao-escuro);
+}
+.container{
+ 
+    margin: 100px auto auto auto;
+    max-width: 650px;
+}
+
+.container-Style{
+    border-left:3px solid rgb(223, 215, 224) ;
+    background-color: rgb(251, 240, 255);
+    padding: 13px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(5, 5, 5, 0.147);
+}
+
+.card{
+    background-color: var(--branco);
+    box-shadow: 3px 3px 10px rgba(5, 5, 5, 0.147);
+    border-radius: 10px;
+}
+.done {
+    text-decoration: line-through;
+    transition: 1s ease-in-out;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botaoAdicionar{
+    width: 50px;
+    height: 50px;
+    font-size: 20px; 
+    
+    border: none;
+    border: 4px solid var(--vermelho);
+    background-color: var(--vermelho-padrao-escuro);
+
+    color: var(--branco);
+    border-radius: 50px;
+
+    box-shadow: 3px 3px 3px var(--sombra-padrao);
+}
+
+
+.modal{
+    transition: 1s ease-in;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.222);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardModal{
+    padding: 20px;
+    background-color: white;
+}
+
+.hide{
+    transition: 1s ease-in;
+    display: none;
+}
