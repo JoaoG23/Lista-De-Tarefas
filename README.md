@@ -3,7 +3,7 @@
 Uma lista de tarefas feitas com para treinamento do **React** e o Gerenciador de estados **Redux**.
 
 
-![introducao](AssetsDoc\Inicial.gif)
+![introducao](./AssetsDoc/Inicial.gif)
 
 ### Indice 🗂️
 
@@ -46,7 +46,7 @@ Uma esse desenlvovimento foi um projeto do Curso **ProgramadorBr**, sendo que a 
 - No botão ✅ concluir a tarefa
 
 
-![apresentacao](AssetsDoc\gifApresentacao.gif)
+![apresentacao](./AssetsDoc/gifApresentacao.gif)
 
 
 ### Considerações Finais 😭
